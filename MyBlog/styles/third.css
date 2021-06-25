@@ -1,0 +1,42 @@
+.thirdcard {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialsharingsection {
+    display: flex;
+    padding-top: 20%;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    body {
+        width: 640px;
+        height: auto;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    body {
+        min-width: 641px;
+        max-width: 1007px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1008px) {
+    body {
+        width: 1008px;
+        height: auto;
+    }
+}
